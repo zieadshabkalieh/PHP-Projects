@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tb1">
+        <tr>
+            <th>name</th>
+            <th>last</th>
+        </tr>
+        <tr>
+            <td>shaza</td>
+            <td>maza</td>
+        </tr>
+    </table>
+    <script>
+var row=document.createElement("tr");
+var data1=document.createElement("td");
+var data2=document.createElement("td");
+row.appendChild(data1);
+row.appendChild(data2);
+text1=document.createTextNode("seba")
+text2=document.createTextNode("maa")
+data1.appendChild(text1);
+data2.appendChild(text2);
+document.getElementById("tb1").appendChild(row);
+    </script>
+    <hr>
+    <br><br><br><br>
+
+
+    <button id="btn1">add row</button>
+	<form action="" id="form1">
+<input id="num1" type="text" placeholder="enter name">
+<input id="t1" type="text" placeholder="enter name">
+<input id="t2" type="text" placeholder="enter mark">
+<input id="t3" type="text" value="100">
+<div>
+	
+	<input id="ok" type="button" value="ok">
+	<input id="cancel" type="button" value="cancle">
+</div>
+
+	</form>   
+<table class="table"id="tb" >
+   
+    <tr id="thead1">
+        <th>#</th>
+        <th>Name</th>
+        <tH>Mark</th>
+        <th>Superstate Mark</th>
+        </tr>
+    
+   
+    <tr class="tbody1"> 
+        <td>1</td>
+        <td>Ahmad</td>
+        <td>60</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>2</td>
+        <td>Laila</td>
+        <td>75</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>3</td>
+        <td>Iman</td>
+        <td>67</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>4</td>
+        <td>Ali</td>
+        <td>50</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>5</td>
+        <td>Nour</td>
+        <td>88</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>6</td>
+        <td>Amin</td>
+        <td>96</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>7</td>
+        <td>jihad</td>
+        <td>75</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>8</td>
+        <td>Najlaa</td>
+        <td>45</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>9</td>
+        <td>Aya</td>
+        <td>83</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>10</td>
+        <td>Farah</td>
+        <td>79</td>
+        <td>100</td>
+    </tr>
+    <tr  class="tbody1">
+        <td>11</td>
+        <td>Lama</td>
+        <td>78</td>
+        <td>100</td>
+    </tr>
+    
+    
+    </table>
+<script>
+    var row=document.createElement("tr");
+var data1=document.createElement("td");
+var data2=document.createElement("td");
+var data3=document.createElement("td");
+var data4=document.createElement("td");
+row.appendChild(data1);
+row.appendChild(data2);
+row.appendChild(data3);
+row.appendChild(data4);
+
+// var t1=document.getElementById("num").value;
+var t1=document.getElementById('num1').value;
+var   t2=document.getElementById("t1").value;
+var   t3=document.getElementById("t2").value;
+var   t4=document.getElementById("t3").value;
+console.log(t1)
+
+text1=document.createTextNode(t1)
+text2=document.createTextNode(t2)
+text3=document.createTextNode(t3)
+text4=document.createTextNode(t4)
+data1.appendChild(text1);
+data2.appendChild(text2);
+data3.appendChild(text3);
+data4.appendChild(text4);
+document.getElementById("tb").appendChild(row);
+</script>
+    
+    <script>
+        document.getElementById("btn1").addEventListener("click",add_row);
+function add_row(){
+   document.getElementById("form1").style.opacity="1"; 
+}
+
+document.getElementById("ok").addEventListener("click",ok);
+document.getElementById("cancel").addEventListener("click",cancel);
+function ok(){
+    // document.getElementById("form1").style.opacity="0"; 
+    var row = document.createElement("tr");
+    e=   document.getElementById("tb");
+    var data1,data2,data3,data4 ,text1,text2,text3,text4 ,
+    t1,t2,t3,t4 ;
+    
+    t1=document.getElementById("num").value;
+    t2=document.getElementById("t1").value;
+    t3=document.getElementById("t2").value;
+    t4=document.getElementById("t3").value;
+
+    data1=document.createElement("td");
+    data2=document.createElement("td");
+    data3=document.createElement("td");
+    data4=document.createElement("td");
+
+    row.appendChild(data1);
+    row.appendChild(data2);
+    row.appendChild(data3);
+    row.appendChild(data4);
+
+    text1=document.createTextNode("t1");
+    text2=document.createTextNode("t2");
+    text3=document.createTextNode("t3");
+    text4=document.createTextNode("t4");
+
+    data1.appendChild(text1);
+    data2.appendChild(text2);
+    data3.appendChild(text3);
+    data4.appendChild(text4);
+
+
+
+    e.appendChild(row);
+  
+
+}
+
+// function addrow(){
+//     var row = document.createElement("tr");
+//     e=   document.getElementById("tb");
+//     var data1,data2,data3,data4 ,text1,text2,text3,text4 ,
+//     t1,t2,t3,t4 ;
+    
+//     t1=document.getElementById("num").value;
+//     t2=document.getElementById("t1").value;
+//     t3=document.getElementById("t2").value;
+//     t4=document.getElementById("t3").value;
+
+//     data1=document.createElement("td");
+//     data2=document.createElement("td");
+//     data3=document.createElement("td");
+//     data4=document.createElement("td");
+
+//     row.appendChild(data1);
+//     row.appendChild(data2);
+//     row.appendChild(data3);
+//     row.appendChild(data4);
+
+//     text1=document.createTextNode(t1);
+//     text1=document.createTextNode(t2);
+//     text2=document.createTextNode(t3);
+//     text3=document.createTextNode(t4);
+
+//     data1.appendChild(text1);
+//     data2.appendChild(text2);
+//     data3.appendChild(text3);
+//     data4.appendChild(text4);
+
+// return row;
+// }
+
+function cancel(){
+    document.getElementById("form1").style.opacity="0"; 
+}
+    </script>
+</body>
+</html>

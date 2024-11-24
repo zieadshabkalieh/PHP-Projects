@@ -1,0 +1,90 @@
+.card-box p{
+	text-align: center !important;
+}
+.table-container{
+	margin: auto;
+	width: 90%;/*site-map;*/
+	margin-top: 5%;
+}
+
+.table-header{
+	color: #3d84e6;
+	text-align: center;
+	display: block;
+	width: 100%
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+	padding: 10px;
+	box-shadow: 0 0 7px #222;
+	text-align: center;
+}
+
+.table td, .table th{
+	border: 1px solid #3d84e6;
+	padding: 10px;
+	width: 25%;
+}
+
+.table tr:nth-child(even){
+	background-color: #eee;
+	color: #3d84e6;
+}
+.table tr:nth-child(odd){
+	background-color: white;
+	color: navy;
+}
+
+.table tr:hover{
+	background-color: #999;
+	color: navy;
+	font-weight: bold;
+}
+
+.table thead th, .table tfoot td{
+	background-color: #eee;
+	color: #3d84e6;
+	font-weight: bold;
+	text-align: center;
+}
+
+thead{
+	cursor: pointer;
+}
+.tbody1{
+	display: none;
+}
+
+
+.pager{
+	margin: auto;
+}
+
+.pager a{
+	color: #3d84e6;
+	text-decoration: underline;
+	/*text-transform: lowercase;*/
+}
+
+#p1{
+	display: none;
+}
+#a1{
+	color: #3d84e6;
+	text-decoration: underline;	
+	cursor: pointer;
+}
+
+
+#btn1,#btn2,#btn3{
+	box-shadow: 0 0 7px #222;
+	margin:3px;
+}
+
+
+
+/* #num2{
+	opacity: 0;
+} */

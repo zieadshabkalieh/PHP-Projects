@@ -1,0 +1,51 @@
+<form action="update_ok.php" id="form3" method="post">
+
+		<input id="num23" type="number" placeholder="id"  name="id_up" >
+		<input id="num13" type="number" placeholder="enter mark" name="mark_up">
+
+		<!-- <input id="num2" type="number" placeholder="enter num_unv" name="num_unv"> -->
+		<input id="t13" type="text" placeholder="enter name" name="name_up">
+		<!-- <input id="t2" type="text" placeholder="enter mark" name="mark"> -->
+		<input id="t33" type="text" value="100" name="max_ma_up">
+		<div>
+				<input id="ok3" type="submit" value="ok" name="ok_up">
+				<!-- <input id="ok" type="button" value="ok"> -->
+				<input id="cancel3" type="reset" value="cancle">
+		</div>
+
+</form>
+
+
+
+
+<form action="delete_ok .php" id="form2" method="post">
+
+		<input id="num22" type="number" placeholder="id"  name="id" >
+	<div>
+				<input id="ok2" type="submit" value="ok" name="ok_del">
+			
+				<input id="cancel2" type="reset" value="cancle">
+		</div>
+
+</form>
+
+
+
+
+<form action="add_ok.php" id="form1" method="post">
+<!-- <div id="form1"> -->
+		<!-- <input id="num2" type="number" placeholder="id"  name="id" style="display: none;"> -->
+		<input id="num1" type="number" placeholder="enter mark" name="mark">
+
+		<!-- <input id="num2" type="number" placeholder="enter num_unv" name="num_unv"> -->
+		<input id="t1" type="text" placeholder="enter name" name="name">
+		<!-- <input id="t2" type="text" placeholder="enter mark" name="mark"> -->
+		<input id="t3" type="text" value="100" name="max_ma">
+		<div>
+				<input id="ok" type="submit" value="ok" name="ok">
+				<!-- <input id="ok" type="button" value="ok"> -->
+				<input id="cancel" type="reset" value="cancle">
+		</div>
+<!-- </div> -->
+
+</form>

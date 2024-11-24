@@ -1,0 +1,52 @@
+#d1{
+    display: flex;
+    justify-content: center;
+  padding-top: 10%;
+}
+
+#d2{
+  background-color: white; 
+  padding: 1%; 
+  width: 25%;
+  text-align: center;
+  border-left: double lightgreen;
+  border-right: double lightgreen;
+  box-shadow: 5px 5px 10px 10px lightgray;
+  height:max-content;
+ 
+}
+input{
+    width: 50%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 5px;
+}
+#d3{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-bottom: 16%;
+}
+#im1{
+    background: url(images/cer1logo.jpg) no-repeat;
+    /* display: flex; */
+    background-size: cover;
+    background-clip:content-box;
+    width: 100px;
+    height: 100px;
+    
+}
+input[type='submit']{
+    background-color: rgb(98, 158, 98);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    background-color: rgb(120, 194, 120);
+}
+input[type='text']:focus{
+    /* box-shadow: 5px 5px 10px  lightgreen; */
+    background-color: rgb(187, 248, 187);
+}

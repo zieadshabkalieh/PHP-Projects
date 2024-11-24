@@ -1,0 +1,74 @@
+#form1,#form2,#form3{
+	margin: 5px;
+	width: 50%;
+	padding: 10px;
+	box-shadow: 0 0 7px #0648a5;
+	/* border: solid #3d84e6; */
+	position: fixed;
+top: 25%;
+left: 25%;
+background-color: #eee;	
+opacity: 0;
+
+}
+#form1 input[type=text],input[type=number]{
+	width: 100%;
+	margin-bottom: 3px;
+}
+#form1 div{
+display: flex;
+justify-content: center;
+
+
+}
+ 
+#form1 div input{
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+/* ------------------------------------ */
+#form3 input[type=text],input[type=number]{
+	width: 100%;
+	margin-bottom: 3px;
+}
+#form3 div{
+display: flex;
+justify-content: center;
+
+
+}
+ 
+#form3 div input{
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+
+/* ----------------------------------------------- */
+#form2 input[type=text],input[type=number]{
+	width: 100%;
+	margin-bottom: 3px;
+}
+#form2 div{
+display: flex;
+justify-content: center;
+
+
+}
+ 
+#form2 div input{
+	margin-right: 10px;
+	margin-top: 5px;
+}
+/* #num2{
+	display: none;
+} */
+/*
+#ok2,#ok3,#ok,#cancel,#cancel2,#cancel3{
+	opacity: 0;
+}
+*/
+.bt{
+	display: none;
+}
